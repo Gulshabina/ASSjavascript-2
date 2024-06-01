@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>string method</title>
+</head>
+<body>
+    <script src=".//chap21_25.js"></script> 
+
+
+    
+
+    7
+   
+    
+    <p id="result"></p>
+    
+    <script>
+    // Function to replace "Hyder" with "Islam" in the word "Hyderabad"
+    function replaceText() {
+        // Original word
+        var originalWord = "Hyderabad";
+        // Replace "Hyder" with "Islam"
+        var replacedWord = originalWord.replace("Hyder", "Islam");
+        // Display the result in the browser
+        document.getElementById("result").innerHTML = "Original word: " + originalWord + "<br>Replaced word: " + replacedWord;
+    }
+    
+    // Call the function when the page loads
+    window.onload = replaceText;
+    </script>
+
+
+   9
+  
+<p id="result"></p>
+
+<script>
+// Convert the string "472" to a number
+var number = parseInt("472");
+
+// Display the value and type in the browser
+document.getElementById("result").innerHTML = "Value: " + number + "<br>Type: " + typeof(number);
+</script>
+
+p id=""></p>
+
+<script>
+// Function to replace "Hyder" with "Islam" in the word "Hyderabad"
+function replaceText() {
+    // Original word
+    var originalWord = "Hyderabad";
+    // Replace "Hyder" with "Islam"
+    var replacedWord = originalWord.replace("Hyder", "Islam");
+    // Display the result in the browser
+    document.getElementById("result").innerHTML = "Original word: " + originalWord + "<br>Replaced word: " + replacedWord;
+}
+
+// Call the function when the page loads
+window.onload = replaceText;
+</script>
+
+
+11
+
+
+<p id="convert"></p>
+
+<script>
+function convertToTitleCase() {
+    // Get user input
+    var userInput = document.getElementById("userInput").value;
+
+    // Split the input into words
+    var words = userInput.split(" ");
+
+    // Convert each word to title case
+    for (var i = 0; i < words.length; i++) {
+        words[i] = words[i].charAt(0).toUpperCase() + words[i].slice(1).toLowerCase();
+    }
+
+    // Join the words back together
+    var titleCaseInput = words.join(" ");
+
+    // Display the result
+    document.getElementById("result").textContent = "Title Case: " + titleCaseInput;
+}
+</script>
+
+</body>
+</html>
+
+
+
+</body>
+</html>
+
+
+
+
+    
+    
